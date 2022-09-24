@@ -239,7 +239,7 @@ async def start(client, message):
         chat_id=message.from_user.id,
         file_id=file_id,
         caption=f_caption,
-        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ', url='youtube.com/OpusTechz') ] ] ),
+        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝐋𝐈𝐒𝐓​', url='https://t.me/RTS_TG1/49') ] ] ),
         protect_content=True if pre == 'filep' else False,
         )
                     
