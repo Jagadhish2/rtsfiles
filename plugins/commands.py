@@ -47,7 +47,7 @@ async def start(client, message):
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
             ],[
-            InlineKeyboardButton('✅ CONTACT ADMIN ✅', url='https://t.me/jagadhish_bot')
+            InlineKeyboardButton('✅ ᴄᴏɴᴛᴀᴄᴛ ᴀᴅᴍɪɴ​ ✅', url='https://t.me/jagadhish_bot')
         ]]         
         reply_markup = InlineKeyboardMarkup(buttons)        
         await message.reply_photo(
